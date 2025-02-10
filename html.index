@@ -1,0 +1,36 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Message </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fff0f5;
+            margin-top: 50px;
+        }
+        .heart {
+            font-size: 60px;
+            color: red;
+            cursor: pointer;
+        }
+        .secret-message {
+            display: none;
+            font-size: 24px;
+            color: #ff1493;
+            margin-top: 20px;
+        }
+        .heart:hover + .secret-message {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heart">❤️</div>
+    <div class="secret-message">You are my everything dias 💘</div>
+
+</body>
+</html>
